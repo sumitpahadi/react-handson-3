@@ -6,9 +6,7 @@ function App() {
   return (
     <div >
 
-    <div className="heading">
-      <h1>Employee Feedback Form</h1>
-    </div>
+ 
     
       <Classcom/>
     

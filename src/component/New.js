@@ -10,6 +10,9 @@ export class New extends Component {
   render() {
     return (
       <>
+        <div className="heading">
+          <h1>Employee Feedback data</h1>
+        </div>
         <div className="container">
           <div className="content">
             {this.props.value.map((item, index) => {
@@ -21,13 +24,13 @@ export class New extends Component {
                 </div>
               );
             })}
-            
           </div>
         </div>
         <div className="goback">
           <div className="button">
-
-        <button onClick={this.props.togglefunc} className="btn">go back</button>
+            <button onClick={this.props.togglefunc} className="btn">
+              go back
+            </button>
           </div>
         </div>
       </>
