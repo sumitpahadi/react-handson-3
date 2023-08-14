@@ -78,7 +78,7 @@ class Classcom extends Component {
                 <br />
                 <label htmlFor="rating">Rating :</label>
                 <input
-                  type="text"
+                  type="number"
                   id="rating"
                   placeholder="Enter rating"
                   name="Rating"
